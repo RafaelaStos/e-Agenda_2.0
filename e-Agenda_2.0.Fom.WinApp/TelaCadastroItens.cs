@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace e_Agenda_2._0.Fom.WinApp
 {
-    public partial class telaCadatroTarefas : Form
+    public partial class TelaCadastroItens : Form
     {
-        public telaCadatroTarefas()
+        public TelaCadastroItens()
         {
             InitializeComponent();
         }
+
+        
     }
 }

@@ -73,6 +73,7 @@
             this.MaximizeBox = false;
             this.Name = "Menu";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "e-Agenda";
             this.ResumeLayout(false);
 
