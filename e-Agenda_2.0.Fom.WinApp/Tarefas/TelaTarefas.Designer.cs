@@ -1,6 +1,6 @@
 ﻿namespace e_Agenda_2._0.Fom.WinApp
 {
-    partial class telaCadatroTarefas
+    partial class TelaTarefas
     {
         /// <summary>
         /// Required designer variable.
@@ -104,7 +104,7 @@
             this.tabTarefasPendentes.Location = new System.Drawing.Point(4, 24);
             this.tabTarefasPendentes.Name = "tabTarefasPendentes";
             this.tabTarefasPendentes.Padding = new System.Windows.Forms.Padding(3);
-            this.tabTarefasPendentes.Size = new System.Drawing.Size(597, 266);
+            this.tabTarefasPendentes.Size = new System.Drawing.Size(597, 285);
             this.tabTarefasPendentes.TabIndex = 0;
             this.tabTarefasPendentes.Text = "Tarefas Pendentes";
             this.tabTarefasPendentes.UseVisualStyleBackColor = true;
@@ -119,7 +119,7 @@
             this.tabTarefasConcluidas.Text = "Tarefas Concluidas";
             this.tabTarefasConcluidas.UseVisualStyleBackColor = true;
             // 
-            // telaCadatroTarefas
+            // TelaTarefas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -130,11 +130,11 @@
             this.Controls.Add(this.bntExcluirTarefas);
             this.Controls.Add(this.bntEditarTarefas);
             this.Controls.Add(this.btnCadatrarTarefas);
-            this.Name = "telaCadatroTarefas";
+            this.Name = "TelaTarefas";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cadatro de Tarefas";
+            this.Text = "e-Agenda  Tarefas";
             this.tabTarefas.ResumeLayout(false);
             this.ResumeLayout(false);
 

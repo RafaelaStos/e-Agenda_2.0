@@ -28,61 +28,84 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnTarefas = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnContatos = new System.Windows.Forms.Button();
-            this.btnCompromissos = new System.Windows.Forms.Button();
+            this.btnTarefa = new System.Windows.Forms.Button();
+            this.btnCompromisso = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnTarefas
+            // pictureBox1
             // 
-            this.btnTarefas.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnTarefas.Location = new System.Drawing.Point(53, 51);
-            this.btnTarefas.Name = "btnTarefas";
-            this.btnTarefas.Size = new System.Drawing.Size(98, 53);
-            this.btnTarefas.TabIndex = 0;
-            this.btnTarefas.Text = "Tarefas";
-            this.btnTarefas.UseVisualStyleBackColor = true;
+            this.pictureBox1.Image = global::e_Agenda_2._0.Fom.WinApp.Properties.Resources.reuniao_de_equipe_como_fazer_1024x538_1;
+            this.pictureBox1.Location = new System.Drawing.Point(1, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(562, 301);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // btnContatos
             // 
             this.btnContatos.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnContatos.Location = new System.Drawing.Point(52, 152);
+            this.btnContatos.Image = global::e_Agenda_2._0.Fom.WinApp.Properties.Resources.icons8_gestão_de_desenvolvimento_comercial_30;
+            this.btnContatos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnContatos.Location = new System.Drawing.Point(385, 111);
             this.btnContatos.Name = "btnContatos";
-            this.btnContatos.Size = new System.Drawing.Size(98, 53);
-            this.btnContatos.TabIndex = 1;
+            this.btnContatos.Size = new System.Drawing.Size(126, 53);
+            this.btnContatos.TabIndex = 4;
             this.btnContatos.Text = "Contatos";
             this.btnContatos.UseVisualStyleBackColor = true;
             // 
-            // btnCompromissos
+            // btnTarefa
             // 
-            this.btnCompromissos.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCompromissos.Location = new System.Drawing.Point(52, 254);
-            this.btnCompromissos.Name = "btnCompromissos";
-            this.btnCompromissos.Size = new System.Drawing.Size(98, 53);
-            this.btnCompromissos.TabIndex = 2;
-            this.btnCompromissos.Text = "Compromissos";
-            this.btnCompromissos.UseVisualStyleBackColor = true;
+            this.btnTarefa.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTarefa.Image = global::e_Agenda_2._0.Fom.WinApp.Properties.Resources.icons8_lista_24;
+            this.btnTarefa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTarefa.Location = new System.Drawing.Point(43, 111);
+            this.btnTarefa.Name = "btnTarefa";
+            this.btnTarefa.Size = new System.Drawing.Size(120, 53);
+            this.btnTarefa.TabIndex = 5;
+            this.btnTarefa.Text = "Tarefas";
+            this.btnTarefa.UseVisualStyleBackColor = true;
+            this.btnTarefa.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // btnCompromisso
+            // 
+            this.btnCompromisso.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCompromisso.Image = global::e_Agenda_2._0.Fom.WinApp.Properties.Resources.icons8_relógio_24;
+            this.btnCompromisso.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCompromisso.Location = new System.Drawing.Point(200, 111);
+            this.btnCompromisso.Name = "btnCompromisso";
+            this.btnCompromisso.Size = new System.Drawing.Size(145, 53);
+            this.btnCompromisso.TabIndex = 6;
+            this.btnCompromisso.Text = "Compromissos";
+            this.btnCompromisso.UseVisualStyleBackColor = true;
             // 
             // Menu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
-            this.ClientSize = new System.Drawing.Size(223, 349);
-            this.Controls.Add(this.btnCompromissos);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(564, 299);
+            this.Controls.Add(this.btnCompromisso);
+            this.Controls.Add(this.btnTarefa);
             this.Controls.Add(this.btnContatos);
-            this.Controls.Add(this.btnTarefas);
+            this.Controls.Add(this.pictureBox1);
             this.MaximizeBox = false;
             this.Name = "Menu";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "e-Agenda";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnTarefas;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnContatos;
-        private System.Windows.Forms.Button btnCompromissos;
+        private System.Windows.Forms.Button btnTarefa;
+        private System.Windows.Forms.Button btnCompromisso;
     }
 }

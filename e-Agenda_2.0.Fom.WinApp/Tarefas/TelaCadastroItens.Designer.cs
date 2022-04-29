@@ -28,25 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnAdicionarTarefas = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.labelTitiloTarefa = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textExcucaoItem = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btnGravar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.listItens = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnAdicionarTarefas
-            // 
-            this.btnAdicionarTarefas.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAdicionarTarefas.Location = new System.Drawing.Point(460, 94);
-            this.btnAdicionarTarefas.Name = "btnAdicionarTarefas";
-            this.btnAdicionarTarefas.Size = new System.Drawing.Size(94, 23);
-            this.btnAdicionarTarefas.TabIndex = 2;
-            this.btnAdicionarTarefas.Text = "Adicionar";
-            this.btnAdicionarTarefas.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -67,18 +59,18 @@
             this.labelTitiloTarefa.TabIndex = 4;
             this.labelTitiloTarefa.Text = "[TituloTarefa]";
             // 
-            // textBox1
+            // textExcucaoItem
             // 
-            this.textBox1.Location = new System.Drawing.Point(115, 94);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(312, 23);
-            this.textBox1.TabIndex = 5;
+            this.textExcucaoItem.Location = new System.Drawing.Point(115, 130);
+            this.textExcucaoItem.Name = "textExcucaoItem";
+            this.textExcucaoItem.Size = new System.Drawing.Size(312, 23);
+            this.textExcucaoItem.TabIndex = 5;
             // 
             // button1
             // 
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(456, 395);
+            this.button1.Location = new System.Drawing.Point(456, 424);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 43);
             this.button1.TabIndex = 6;
@@ -89,7 +81,7 @@
             // 
             this.btnGravar.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnGravar.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnGravar.Location = new System.Drawing.Point(329, 395);
+            this.btnGravar.Location = new System.Drawing.Point(329, 424);
             this.btnGravar.Name = "btnGravar";
             this.btnGravar.Size = new System.Drawing.Size(98, 43);
             this.btnGravar.TabIndex = 7;
@@ -99,35 +91,63 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(36, 102);
+            this.label2.Location = new System.Drawing.Point(36, 138);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 15);
+            this.label2.Size = new System.Drawing.Size(60, 15);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Descrição:";
+            this.label2.Text = "Execução:";
             // 
             // listItens
             // 
             this.listItens.FormattingEnabled = true;
             this.listItens.ItemHeight = 15;
-            this.listItens.Location = new System.Drawing.Point(36, 148);
+            this.listItens.Location = new System.Drawing.Point(36, 191);
             this.listItens.Name = "listItens";
-            this.listItens.Size = new System.Drawing.Size(518, 214);
+            this.listItens.Size = new System.Drawing.Size(518, 199);
             this.listItens.TabIndex = 9;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(36, 98);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 15);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Drescrição:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(115, 90);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(312, 23);
+            this.textBox1.TabIndex = 10;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(456, 110);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(98, 43);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Adicionar";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // TelaCadastroItens
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(584, 450);
+            this.ClientSize = new System.Drawing.Size(584, 479);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listItens);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnGravar);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textExcucaoItem);
             this.Controls.Add(this.labelTitiloTarefa);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnAdicionarTarefas);
             this.MaximizeBox = false;
             this.Name = "TelaCadastroItens";
             this.ShowIcon = false;
@@ -139,14 +159,15 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnAdicionarTarefas;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelTitiloTarefa;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textExcucaoItem;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnGravar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox listItens;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button2;
     }
 }

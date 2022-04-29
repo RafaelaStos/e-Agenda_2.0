@@ -59,5 +59,45 @@ namespace e_Agenda_2._0.Fom.WinApp.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_gestão_de_desenvolvimento_comercial_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-gestão-de-desenvolvimento-comercial-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_lista_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-lista-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_relógio_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-relógio-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap reuniao_de_equipe_como_fazer_1024x538_1 {
+            get {
+                object obj = ResourceManager.GetObject("reuniao-de-equipe-como-fazer-1024x538-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace e_Agenda_2._0.Fom.WinApp
 {
-    public partial class Menu : Form
+    public partial class TelaContatos : Form
     {
-        public Menu()
+        public TelaContatos()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            TelaTarefas tela = new TelaTarefas();
-            
-        
         }
     }
 }

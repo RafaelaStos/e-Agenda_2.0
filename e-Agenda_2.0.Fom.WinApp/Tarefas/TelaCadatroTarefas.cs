@@ -8,20 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace e_Agenda_2._0.Fom.WinApp
+namespace e_Agenda_2._0.Fom.WinApp.Tarefas
 {
-    public partial class Menu : Form
+    public partial class TelaCadastroTarefas : Form
     {
-        public Menu()
+        public TelaCadastroTarefas()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            TelaTarefas tela = new TelaTarefas();
-            
-        
-        }
+       
     }
 }
