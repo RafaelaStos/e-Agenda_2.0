@@ -1,6 +1,6 @@
 ﻿namespace e_Agenda_2._0.Fom.WinApp
 {
-    partial class TelaVisualizarFiltro
+    partial class TelaVisualizarFiltroCompromisso
     {
         /// <summary>
         /// Required designer variable.

@@ -8,15 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace e_Agenda_2._0.Fom.WinApp.Tarefas
+namespace e_Agenda_2._0.Fom.WinApp
 {
-    public partial class TelaCadastroCompromisso : Form
+    public partial class TelaCadatroCompromisso : Form
     {
-        public TelaCadastroCompromisso()
+        public TelaCadatroCompromisso()
         {
             InitializeComponent();
         }
 
-       
+     
     }
 }

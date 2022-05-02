@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace e_Agenda_2._0.Fom.WinApp
 {
-    public partial class telaAtualizarItens : Form
+    public partial class TelaAtualizarCompromisso : Form
     {
-        public telaAtualizarItens()
+        public TelaAtualizarCompromisso()
         {
             InitializeComponent();
         }

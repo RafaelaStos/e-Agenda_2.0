@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace e_Agenda_2._0.Fom.WinApp
 {
-    public partial class TelaVisualizarFiltro : Form
+    public partial class TelaCompromisso : Form
     {
-        public TelaVisualizarFiltro()
+        public TelaCompromisso()
         {
             InitializeComponent();
+        }
+
+        private void btnAdicionarCompromisso_Click(object sender, EventArgs e)
+        {
+            TelaCadatroCompromisso telaCadatroCompromisso = new TelaCadatroCompromisso();
+            telaCadatroCompromisso.ShowDialog();
         }
     }
 }

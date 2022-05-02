@@ -56,6 +56,7 @@
             this.btnContatos.TabIndex = 4;
             this.btnContatos.Text = "Contatos";
             this.btnContatos.UseVisualStyleBackColor = true;
+            this.btnContatos.Click += new System.EventHandler(this.btnContatos_Click);
             // 
             // btnTarefa
             // 
@@ -68,7 +69,7 @@
             this.btnTarefa.TabIndex = 5;
             this.btnTarefa.Text = "Tarefas";
             this.btnTarefa.UseVisualStyleBackColor = true;
-            this.btnTarefa.Click += new System.EventHandler(this.button2_Click);
+            this.btnTarefa.Click += new System.EventHandler(this.btnTarefa_Click);
             // 
             // btnCompromisso
             // 
@@ -81,6 +82,7 @@
             this.btnCompromisso.TabIndex = 6;
             this.btnCompromisso.Text = "Compromissos";
             this.btnCompromisso.UseVisualStyleBackColor = true;
+            this.btnCompromisso.Click += new System.EventHandler(this.btnCompromisso_Click);
             // 
             // Menu
             // 

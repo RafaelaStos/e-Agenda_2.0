@@ -17,11 +17,22 @@ namespace e_Agenda_2._0.Fom.WinApp
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnTarefa_Click(object sender, EventArgs e)
         {
-            TelaTarefas tela = new TelaTarefas();
-            
-        
+            TelaTarefas telaTarefas = new TelaTarefas();
+            telaTarefas.ShowDialog();
+        }
+
+        private void btnCompromisso_Click(object sender, EventArgs e)
+        {
+            TelaCompromisso telaCompromisso = new TelaCompromisso();
+            telaCompromisso.ShowDialog();
+        }
+
+        private void btnContatos_Click(object sender, EventArgs e)
+        {
+            TelaContatos telaContatos = new TelaContatos();
+            telaContatos.ShowDialog();      
         }
     }
 }

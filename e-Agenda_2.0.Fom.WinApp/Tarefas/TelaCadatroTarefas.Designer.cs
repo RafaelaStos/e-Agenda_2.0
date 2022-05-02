@@ -1,6 +1,6 @@
 ﻿namespace e_Agenda_2._0.Fom.WinApp.Tarefas
 {
-    partial class TelaCadastroTarefas
+    partial class TelaCadastroCompromisso
     {
         /// <summary>
         /// Required designer variable.
